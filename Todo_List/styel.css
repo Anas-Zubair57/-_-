@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(35, 56, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color:rgb(255,215,0);
+  
+}
+.container h1
+{
+
+    border-bottom: 1px solid black;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(50, 77, 85);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 8px 8px 10px black;
+    transition: ease-in-out 0.3s;
+}
+button:hover
+{
+    transform: scale(1.2);
+}
+.text ul
+{
+    padding: 8px;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(50, 77, 85);
+    text-align: left;
+}
+.text ul i
+{
+    position:absolute;
+    right: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.text ul i:hover
+{
+    color: red;
+    transform: scale(1.5);
+}
+

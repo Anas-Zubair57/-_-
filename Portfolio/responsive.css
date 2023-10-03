@@ -1,0 +1,47 @@
+@media (max-width:800px) {
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        width: 880px;
+    }
+    .right img
+    {
+        height: 400px;
+        width: 300px;
+    }
+   .projects_part
+   {
+    
+    display: flex;
+    gap: 2px; 
+ 
+    height: 250vh;
+
+    justify-content:space-around;
+   }
+   .projects
+   {
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+
+   }
+
+
+   .ap2 
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+   }
+   .ap2 p
+   {
+    text-align: center;
+    width: 80%;
+   }
+}

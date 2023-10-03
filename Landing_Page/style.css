@@ -1,0 +1,326 @@
+* {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Phudu', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.i {
+    color: white;
+    background-color: brown;
+}
+
+.container {
+   
+    height: 630px;
+    
+    width: 100%;
+    background-image: url(/img/aae0b5e796321474dbe7cb2aa5f23edb.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    
+   
+   
+}
+
+
+/* navbar */
+.logo h3 {
+    font-size: 23px;
+    color: red;
+    text-shadow: 10px 10px 10px black;
+}
+
+span {
+    color: grey;
+}
+
+.logo p {
+    text-transform: lowercase;
+    color: white;
+}
+
+.bar {
+    display: none;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+
+}
+
+.navbar .icon {
+
+    display: none;
+    z-index: 10001;
+
+}
+
+.nav ul {
+    color: white;
+    font-size: 18px;
+    gap: 25px;
+    display: flex;
+    transition-delay: 0.5s;
+    transition: ease-in-out;
+}
+
+.nav li {
+
+    list-style: none;
+    transition: ease-in 0.3s;
+    transition-delay: 0.2s;
+}
+.nav li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(2);
+    color: red;
+}
+
+.search {
+    color: red;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.search input {
+    border: 3px solid black;
+    background-color: white;
+    padding: 7px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.search i {
+    font-size: 23spx;
+    transition-delay: 1s;
+    transition: ease-in-out 0.5s;
+}
+
+.search i:hover {
+    cursor: pointer;
+    transform: scale(3);
+}
+
+/* navbar End*/
+
+
+.area {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    position: relative;
+    top: 120px;
+    margin: auto;
+    height: fit-content;
+    width: 70%;
+    gap: 23px;
+    border-radius: 33px;
+  
+
+}
+
+.area h1 {
+    color: red;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.area p {
+    color:white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.btn button {
+    font-size: 23px;
+    transition: ease-in 0.5s;
+    transition-delay: 0.2s;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: brown;
+}
+
+.btn button:hover {
+    transform: scale(1.2);
+    color: red;
+    background-color: grey;
+}
+
+/* second-containr */
+
+.second-container
+{
+    height: 700px;
+    width: 100%;
+    background-color:black;
+}
+
+
+
+
+.area2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px
+}
+.area2 h1
+{
+    color: white;
+    margin-top: 10px;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.area2 p
+{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    color: red;
+}
+.cardss
+{
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+    
+}
+.card h3
+{
+    font-size: 28px;
+    color: red;
+}
+.card
+{
+    height: 450px;
+    width: 300px;
+    background-color: rgb(240, 227, 210);
+    text-align: center;
+    border-radius: 22px;
+}
+.card img
+{
+    margin-top: 10px;
+  
+    height: 40%;
+    width: 100%;
+}
+.co
+{
+    color: red;
+}
+
+
+/* services */
+
+.services
+{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(240, 227, 210);
+  
+}
+.services h1
+{
+    text-align: center;
+    font-size: 44px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    
+}
+.services p{
+    text-align: center;
+    font-weight: bold;
+ 
+}
+.map
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.places p
+{
+    font-size: 23px;
+  
+
+}
+
+.places h1
+{
+    color: red;
+    border-bottom: 1px solid black;
+}
+/* footer */
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.contact p
+{
+    font-size: 23px;
+}
+.contact h1
+{
+    color: red;
+    border-bottom: 1px solid white;
+
+}
+.feedback h1
+{
+    text-align: center;
+    margin-bottom: 4px;
+}
+.inp
+{
+    border: 5px solid red;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(240, 227, 210);
+
+}
+.onlines
+{
+    height: 80px;
+    border-top: 2px solid white;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+.onlines i
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}

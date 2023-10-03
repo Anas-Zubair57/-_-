@@ -1,0 +1,103 @@
+@media (max-width: 400px) {
+
+  
+  /* utility */
+  :root {
+    --gold: rgb(255, 215, 0);
+  }
+
+  /* utility */
+
+
+
+  /* home  */
+  .home {
+
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+
+  }
+
+  .left {
+    width: 98%;
+    border-top-right-radius: 100px;
+  }
+
+  .right {
+    padding: 20px;
+    border-top-right-radius: 0px;
+    width: 98%;
+
+  }
+
+  .right img {
+    width: 480px;
+    border-left: 150px solid var(--gold);
+  }
+
+  /* home end*/
+
+  /* projects */
+
+  .projects_part {
+    height: 345vh;
+    border-bottom-right-radius: 100px;
+  }
+  .cards
+  {
+    width: 70%;
+  }
+
+  /* projects end */
+  /* about */
+
+
+  .about {
+   display: flex;
+   flex-direction: column;
+ 
+   width: 100%;
+   height: 100vh;
+
+  }
+
+  .ap1 {
+    width: 100%;
+  
+  
+  }
+
+  .ap2 {
+
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 103%;
+  padding-bottom: 100px;
+  }
+
+  /* about end*/
+
+  /* contact sections  */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  
+    margin-top: 450px;
+    border-top: 10px solid var(--gold);
+  }
+
+  .cnt1 {
+
+    width: 100%;
+
+  }
+
+  .cnt2 {
+    width: 100%;
+    border-top-left-radius: 0px;
+  }
+
+  /* about end */
+}
